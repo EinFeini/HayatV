@@ -21,6 +21,8 @@ html {
 
 .aboutOurServer {
   padding: 25vh 0;
+  background-color: #161616;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,14 +73,16 @@ html {
 }
 
 .contact .content {
-  background: white;
-  color: black;
+  background: #161616;
+  color: white;
   padding: 50px;
   border-radius: 15px;
   text-align: center;
 }
 
 .footer {
+  background: #4d4c4c;
+  color: white;
   padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;

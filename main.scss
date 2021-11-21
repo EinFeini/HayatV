@@ -1,0 +1,72 @@
+// Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// Main
+
+.hero {
+    background-image: url('./top-image.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:white;
+    background-attachment: fixed;
+}
+
+.aboutOurServer {
+    padding: 25vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        text-align: center;
+        font-weight: 700;
+    }
+    p {
+        
+        margin-top: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.contact {
+    height: 80vh;
+    background-image: url('./Unbenannt.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:white;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        background: white;
+        color:black;
+        padding: 50px;
+        border-radius: 15px;
+        text-align: center;
+    }
+}
+
+.footer {
+    padding: 20px 0 ;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
